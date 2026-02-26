@@ -1,0 +1,30 @@
+{
+  "name": "zingle-backend",
+  "version": "1.0.0",
+  "main": "zingle-backend.ts",
+  "scripts": {
+    "dev": "ts-node zingle-backend.ts",
+    "start": "ts-node zingle-backend.ts"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.1",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.19",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.5.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
